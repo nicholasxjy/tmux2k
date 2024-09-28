@@ -24,10 +24,10 @@ get_changes() {
   done
 
   output=""
-  [ $added -gt 0 ] && output+="${added} "
-  [ $modified -gt 0 ] && output+=" ${modified} "
-  [ $updated -gt 0 ] && output+=" ${updated} ➜"
-  [ $deleted -gt 0 ] && output+=" ${deleted} "
+  [ $added -gt 0 ] && output+=" ${added}"
+  [ $modified -gt 0 ] && output+=" ${modified}"
+  [ $updated -gt 0 ] && output+=" ➜${updated}"
+  [ $deleted -gt 0 ] && output+=" ${deleted}"
 
   echo "$output"
 }
