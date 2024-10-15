@@ -161,6 +161,22 @@ set_theme() {
     purple=$(get_tmux_option "@tmux2k-purple" '#957fb8')
     light_purple=$(get_tmux_option "@tmux2k-light-purple" '#d27e99')
     ;;
+  "tokyonight")
+    bg_main=$(get_tmux_option "@tmux2k-bg-main" '#1a1b26')
+    bg_alt=$(get_tmux_option "@tmux2k-bg-alt" '#292e42')
+    black=$(get_tmux_option "@tmux2k-black" '#16161e')
+    white=$(get_tmux_option "@tmux2k-white" '#c0caf5')
+    red=$(get_tmux_option "@tmux2k-red" '#db4b4b')
+    light_red=$(get_tmux_option "@tmux2k-light-red" '#f7768e')
+    green=$(get_tmux_option "@tmux2k-green" '#9ece6a')
+    light_green=$(get_tmux_option "@tmux2k-light-green" '#73daca')
+    blue=$(get_tmux_option "@tmux2k-blue" '#7aa2f7')
+    light_blue=$(get_tmux_option "@tmux2k-light-blue" '#89ddff')
+    yellow=$(get_tmux_option "@tmux2k-yellow" '#e0af68')
+    light_yellow=$(get_tmux_option "@tmux2k-light-yellow" '#e5c07b')
+    purple=$(get_tmux_option "@tmux2k-purple" '#9d7cd8')
+    light_purple=$(get_tmux_option "@tmux2k-light-purple" '#bb9af7')
+    ;;
   esac
 
   if $icons_only; then
